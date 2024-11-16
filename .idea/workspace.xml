@@ -5,30 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20afa225-6ba6-4580-a265-22c321e6c855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/programing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programing/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programing/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programing/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programing/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/accounts/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/accounts/templates/accounts/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/course_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programing/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/programing/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/programing/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nasrohdfgd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nasrohdfgd/web.git",
+    "accountId": "e0f4ceed-1e23-4290-9574-e9de933db37d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -38,21 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.programing.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.programing.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/programing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programing\courses\accounts\templates\accounts" />
+      <recent name="D:\programing\courses\accounts\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="programing" type="Python.DjangoServer" factoryName="Django server">
       <module name="programing" />
@@ -98,7 +131,10 @@
       <updated>1731578639895</updated>
       <workItem from="1731578663553" duration="559000" />
       <workItem from="1731579240272" duration="33000" />
-      <workItem from="1731579282751" duration="778000" />
+      <workItem from="1731579282751" duration="1725000" />
+      <workItem from="1731595058338" duration="8574000" />
+      <workItem from="1731764776320" duration="841000" />
+      <workItem from="1731774294669" duration="1532000" />
     </task>
     <servers />
   </component>
